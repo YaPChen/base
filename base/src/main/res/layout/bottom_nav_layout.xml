@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    >
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_nav_height"
+        android:layout_gravity="bottom"
+        android:background="@color/botoom_nav_bgColor"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+      >
+
+
+        <com.jason.base.ui.base.view.DrawableTextView
+            android:id="@+id/button_one"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:paddingTop="4dip"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:drawablePadding="4dip"
+            android:drawableTop="@drawable/home_bottom_tab_icon_work_normal"
+            android:gravity="center"
+            android:text="能管通"
+            app:drawableHeight="26dip"
+            app:drawableWidth="26dip"
+            android:background="@color/botoom_nav_button_bgColor"
+            android:textColor="@drawable/home_button_text_color_selector"
+            android:textSize="12sp" />
+        <com.jason.base.ui.base.view.DrawableTextView
+            android:id="@+id/button_two"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingTop="4dip"
+            android:drawablePadding="4dip"
+            android:background="@color/botoom_nav_button_bgColor"
+            android:layout_marginLeft="1dp"
+            android:drawableTop="@drawable/home_bottom_tab_icon_work_normal"
+            android:gravity="center"
+            android:text="能管在线"
+            app:drawableHeight="26dip"
+            app:drawableWidth="26dip"
+            android:textColor="@drawable/home_button_text_color_selector"
+            android:textSize="12sp" />
+        <com.jason.base.ui.base.view.DrawableTextView
+            android:id="@+id/button_three"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="1dp"
+            android:layout_height="match_parent"
+            android:paddingTop="4dip"
+            android:clickable="true"
+            android:background="@color/botoom_nav_button_bgColor"
+            android:drawablePadding="4dip"
+            android:drawableTop="@drawable/home_bottom_tab_icon_work_normal"
+            android:gravity="center"
+            android:text="商城"
+            app:drawableHeight="26dip"
+            app:drawableWidth="26dip"
+            android:textColor="@drawable/home_button_text_color_selector"
+            android:textSize="12sp" />
+        <com.jason.base.ui.base.view.DrawableTextView
+            android:id="@+id/button_four"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="1dp"
+            android:paddingTop="4dip"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@color/botoom_nav_button_bgColor"
+            android:drawablePadding="4dip"
+            android:drawableTop="@drawable/home_bottom_tab_icon_work_normal"
+            android:gravity="center"
+            app:drawableHeight="26dip"
+            app:drawableWidth="26dip"
+            android:text="我"
+            android:textColor="@drawable/home_button_text_color_selector"
+            android:textSize="12sp" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+</FrameLayout>

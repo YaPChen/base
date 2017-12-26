@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="top_nav_height">52dip</dimen>
+    <dimen name="bottom_nav_height">51dip</dimen>
+    <dimen name="valuation_gridview_columnWidth">106dip</dimen>
+    <dimen name="valuation_gridview_columnHeight">80dip</dimen>
+
+    <dimen name="image_ads_height">160dip</dimen>
+    <dimen name="image_ads_width">320dip</dimen>
+    <dimen name="default_color_button_height">40dip</dimen>
+
+</resources>

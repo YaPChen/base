@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LetterSideBar"> 
+        <attr name="slidebarPressColor" format="reference|color"/> 
+        <attr name="letterTextSize" format="reference|dimension"/> 
+        <attr name="slidebarColor" format="reference|color"/>
+        <attr name="slidebarPressSelectedLetterColor" format="reference|color"/> 
+        <attr name="letterColor" format="reference|color"/> 
+        <attr name="slidebarPressUnselectedLetterColor" format="reference|color"/>
+        <attr name="letterVerticalSpace" format="reference|dimension"/> 
+    </declare-styleable> 
+</resources>

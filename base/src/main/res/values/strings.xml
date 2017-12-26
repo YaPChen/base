@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">JasonBase</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_mini_qb">MiniQBActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tag"> (X5内核功能演示)</string>
+    <string name="tip">普通接入直接参考“APPApplication” “BrowserActivity” “X5WebView”中相关实现即可</string>
+
+    <string-array name="index_titles">
+        <item>浏览器demo</item>
+        <item>全屏播放</item>
+        <item>文件选择器</item>
+    </string-array>
+    <string name="password_accept_chars">"0123456789abcdefgjhigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+
+    <string name="usr_name">用户名</string>
+    <string name="usr_pwd">"密    码"</string>
+    <string name="usr_repwd">确认密码</string>
+    <string name="usr_oldpwd">"旧  密  码"</string>
+    <string name="usr_lastpwd">新  密  码</string>
+    <string name="usr_relastpwd">确认新密码</string>
+    <string name="usr_tel">手机号</string>
+    <string name="button_register">用户注册</string>
+    <string name="button_find_password">找回密码</string>
+    <string name="button_login">"登      录"</string>
+
+
+
+    <string name="msg_login_dialog_title_wait">正在登录...</string>
+    <string name="msg_update_dialog_title_wait">正在更新...</string>
+    <string name="msg_login_download_accountinfo_wait">正在更新账户信息...</string>
+
+
+
+    <string name="dialog_no_network_title">无法访问网络</string>
+    <string name="dialog_no_network_message">请检查网络，确保手机可以正常上网</string>
+
+    <string name="msg_input_tel_when_find_password">请先输入要找回密码的手机号码</string>
+    <string name="msg_input_usrtel_invalid">"请输入用户名"</string>
+    <string name="msg_input_usrpwd_invalid">"密码请不要输入特殊符号"</string>
+</resources>
